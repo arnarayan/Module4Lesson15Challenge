@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00F276C027E17F2D001E901D /* Module4Lesson15ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F276BF27E17F2D001E901D /* Module4Lesson15ChallengeApp.swift */; };
-		00F276C227E17F2D001E901D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F276C127E17F2D001E901D /* ContentView.swift */; };
+		00F276C227E17F2D001E901D /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F276C127E17F2D001E901D /* BookListView.swift */; };
 		00F276C427E17F31001E901D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F276C327E17F31001E901D /* Assets.xcassets */; };
 		00F276C727E17F31001E901D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F276C627E17F31001E901D /* Preview Assets.xcassets */; };
 		00F276D227E1805B001E901D /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 00F276D127E1805B001E901D /* Data.json */; };
@@ -22,7 +22,7 @@
 /* Begin PBXFileReference section */
 		00F276BC27E17F2D001E901D /* Module4Lesson15Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Module4Lesson15Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F276BF27E17F2D001E901D /* Module4Lesson15ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module4Lesson15ChallengeApp.swift; sourceTree = "<group>"; };
-		00F276C127E17F2D001E901D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00F276C127E17F2D001E901D /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 		00F276C327E17F31001E901D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00F276C627E17F31001E901D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00F276D127E1805B001E901D /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		00F276CD27E17F3D001E901D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				00F276C127E17F2D001E901D /* ContentView.swift */,
+				00F276C127E17F2D001E901D /* BookListView.swift */,
 				00F276D427E18162001E901D /* BookQuickView.swift */,
 				00F276D627E18198001E901D /* BookDetailView.swift */,
 			);
@@ -199,7 +199,7 @@
 				00F276D727E18198001E901D /* BookDetailView.swift in Sources */,
 				00F276DD27E18469001E901D /* DataService.swift in Sources */,
 				00F276D527E18162001E901D /* BookQuickView.swift in Sources */,
-				00F276C227E17F2D001E901D /* ContentView.swift in Sources */,
+				00F276C227E17F2D001E901D /* BookListView.swift in Sources */,
 				00F276D927E181B9001E901D /* Book.swift in Sources */,
 				00F276C027E17F2D001E901D /* Module4Lesson15ChallengeApp.swift in Sources */,
 				00F276DB27E18338001E901D /* BookViewModel.swift in Sources */,

@@ -11,7 +11,7 @@ import SwiftUI
 struct Module4Lesson15ChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            BookListView()
+            BookListView().environmentObject(BookViewModel())
         }
     }
 }

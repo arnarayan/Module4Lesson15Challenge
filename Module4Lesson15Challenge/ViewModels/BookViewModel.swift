@@ -6,13 +6,15 @@
 //
 
 import Foundation
+import SwiftUI
 
 
-struct BookViewModel {
+class BookViewModel : ObservableObject {
     
-    let dataService: DataService
+    
+    @Published var books = [Book]()
     
     init() {
-        self.dataService = DataService()
+        self.books = DataService.getLocalData()
     }
 }
